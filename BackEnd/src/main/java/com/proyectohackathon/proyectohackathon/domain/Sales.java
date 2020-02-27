@@ -16,50 +16,50 @@ import javax.validation.constraints.NotNull;
 @Document(collection = "sales")
 public class Sales {
     @Id
-    private String id;
+    public String id;
     @NotNull
     @NotBlank
 
     @Field("Region")
-    private String region;
+    public String region;
 
     @Field("Country")
-    private String country;
+    public String country;
 
     @Field("Item Type")
-    private String item_type;
+    public String item_type;
 
     @Field("Sales Channel")
-    private String sales_channel;
+    public String sales_channel;
 
     @Field("Order Priority")
-    private String order_priority;
+    public String order_priority;
 
     @Field("Order Date")
-    private String order_date;
+    public String order_date;
 
     @Field("Order ID")
-    private Integer order_id;
+    public Integer order_id;
 
     @Field("Ship Date")
-    private String ship_date;
+    public String ship_date;
 
     @Field("Units Sold")
-    private Integer units_sold;
+    public Integer units_sold;
 
     @Field("Unit Price")
-    private Double unit_price;
+    public Double unit_price;
 
     @Field("Unit Cost")
-    private Double unit_cost;
+    public Double unit_cost;
 
     @Field("Total Revenue")
-    private Double total_revenue;
+    public Double total_revenue;
 
     @Field("Total Cost")
-    private Double total_cost;
+    public Double total_cost;
 
     @Field("Total Profit")
-    private Double total_profit;
+    public Double total_profit;
 
 }

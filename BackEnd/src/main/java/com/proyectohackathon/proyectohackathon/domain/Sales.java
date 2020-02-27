@@ -39,27 +39,27 @@ public class Sales {
     private String order_date;
 
     @Field("Order ID")
-    private String order_id;
+    private Integer order_id;
 
     @Field("Ship Date")
     private String ship_date;
 
     @Field("Units Sold")
-    private String units_sold;
+    private Integer units_sold;
 
     @Field("Unit Price")
-    private String unit_price;
+    private Double unit_price;
 
     @Field("Unit Cost")
-    private String unit_cost;
+    private Double unit_cost;
 
     @Field("Total Revenue")
-    private String total_revenue;
+    private Double total_revenue;
 
     @Field("Total Cost")
-    private String total_cost;
+    private Double total_cost;
 
     @Field("Total Profit")
-    private String total_profit;
+    private Double total_profit;
 
 }

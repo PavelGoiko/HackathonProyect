@@ -16,9 +16,9 @@ import { Router } from '@angular/router';
 })
 export class PublicationsPage {
 
-  /*public data: Data;
-  public columns: any;
-  public rows: any;*/
+  //public data: Data;
+  //public columns: any;
+  //public rows: any;*/
 
    //publication1:Publication = new Publication("Region","Country","Item Type","Sales Channel","Order Priority","Order Date","Order ID","Ship Date","Units Sold","Unit Price","Unit Cost","Total Revenue","Total Cost","Total Profit");
    //publication2:Publication = new Publication("Region","Country","Item Type","Sales Channel","Order Priority","Order Date","Order ID","Ship Date","Units Sold","Unit Price","Unit Cost","Total Revenue","Total Cost","Total Profit");
